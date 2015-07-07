@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="coderFriends">
+<head>
+  <title>Coder Friends</title>
+</head>
+<body>
+  <a href="/auth/github"><button>Click me. Login. Do it.</button></a>
+  <ng-view></ng-view>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="services/github-service.js"></script>
+  <script src="views/friend/friendCtrl.js"></script>
+  <script src="views/home/homeCtrl.js"></script>
+</body>
+</html>
